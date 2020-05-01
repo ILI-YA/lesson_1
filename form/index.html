@@ -7,24 +7,24 @@
 </head>
 <body>
     <form action="#" method="post">
-        <p><b>Введите ваше имя: </b><input type="text" name="namePerson" maxlength="12" placeholder="Имя"></p>
-        <p><b>Введите ваш номер телефона: </b><input type="tel" name="tel" placeholder="+375(00)123-45-67"></p>
-        <p><b>Введите ваш Email: </b><input type="email" name="email" placeholder="email"></p>
-        <p><b>Введите ваш пороль: </b><input type="password" name="password"></p>
-        <p>
-            <b>Каким браузером пользуетесь?</b><br>
-            <label><input type="radio" name="browser">Chrome</label>
-	    <label><input type="radio" name="browser">Opera</label>
-            <label><input type="radio" name="browser">Safari</label>
-        </p>
-        <p>
-            <b>Ваш коментарий:</b><br>
+        <div><h4>Введите ваше имя:</h4><input type="text" name="namePerson" maxlength="12" placeholder="Имя"></div>
+        <div><h4>Введите ваш номер телефона:</h4><input type="tel" name="tel" placeholder="+375(00)123-45-67"></div>
+        <div><h4>Введите ваш Email:</h4><input type="email" name="email" placeholder="email"></div>
+        <div><h4>Введите ваш пороль:</h4><input type="password" name="password"></div>
+        <div>
+            <h4>Каким браузером пользуетесь?</h4>
+            <input type="radio" name="browser" id="chrome"><label for="chrome">Chrome</label>
+            <input type="radio" name="browser" id="opera"><label for="opera">Opera</label>    
+            <input type="radio" name="browser" id="safari"><label for="safari">Safari</label>
+        </div>
+        <div>
+            <h4>Ваш коментарий:</h4>
             <textarea name="text" cols="50" rows="5"></textarea>
-        </p>
-        <p>
+        </div>
+        <div>
             <input type="reset" name="reset" value="Сбросить">
             <input type="submit" name="submit" value="Отправить">
-        </p>
+        </div>
     </form>
 </body>
 </html>

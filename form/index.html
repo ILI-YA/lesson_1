@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <p><b>Введите ваше имя: </b><input type="text" name="namePerson" maxlength="12" placeholder="Имя"></p>
+        <p><b>Введите ваш номер телефона: </b><input type="tel" name="tel" placeholder="+375(00)123-45-67"></p>
+        <p><b>Введите ваш Email: </b><input type="email" name="email" placeholder="email"></p>
+        <p><b>Введите ваш пороль: </b><input type="password" name="password"></p>
+        <p>
+            <b>Каким браузером пользуетесь?</b><br>
+            <input type="radio" name="browser">Chrome
+	        <input type="radio" name="browser">Opera
+            <input type="radio" name="browser">Safari
+        </p>
+        <p>
+            <b>Ваш коментарий:</b><br>
+            <textarea name="text" cols="50" rows="5"></textarea>
+        </p>
+        <p>
+            <input type="reset" name="reset" value="Сбросить">
+            <input type="submit" name="submit" value="Отправить">
+        </p>
+    </form>
+</body>
+</html>
